@@ -148,5 +148,6 @@ function guess(btn) {
       alert("You have " + (3 - (mistake_count + 1)) + " attempts left.");
       mistake_count++;
       if(mistake_count == 3) {loseGame();}
+      //loseGame();
     }
 }
