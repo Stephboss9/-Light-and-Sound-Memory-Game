@@ -129,7 +129,7 @@ function guess(btn) {
     return;
   }
   if (btn == pattern[guessCounter]){
-  if (guessCounter == progress)
+     if (guessCounter == progress)
     {
       if (progress == pattern.length - 1) {
         winGame();
@@ -143,7 +143,12 @@ function guess(btn) {
       guessCounter++;
     }
   }
-  else {
-      loseGame();      
-   }
+
+    else {
+      alert("You have " + (3 - (mistake_count + 1)) + " attempts left.");
+      mistake_count++;
+      if(mistake_count == 3) {loseGame();}
+      progress++;
+      playClueSequence();
+    }
 }
