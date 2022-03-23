@@ -40,7 +40,6 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 ![] <img src='Memory_walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
- 
 ![] <img src='Memory_walkthrough2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 ![](gif3-link-here)
 ![](gif4-link-here)
