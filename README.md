@@ -70,9 +70,6 @@ written in different programming languages.]
 [If I had more time to work on this project, I would implement a two-player game mode, where two players are given two different sequences and the player that correctly plays all the sequences wins. First 1 player would go with the number of mistakes he/she made recorded at the end, and we repeat the same for the 2nd player. At the end we compare the number of mistakes each player made and choose the winner.  If both players both made no mistakes, then it is a draw.  To keep things fair both players would have the same game settings, meaning when a sequence is being played back, the time each clue is played, and the time between each clue to be played would be the same. In terms of the page, I would also add a two-player game mode button and a single player mode button to the page using html and hide one of them based on which mode was selected. Another game mode I would add would be a NonStop mode, where there’s no end to the game until the user makes a mistake. The user simply tries to play back the sequences given to him for as long as he/she can. The logic of this game mode could involve appending new clues to the end of the patterns array as the game runs. Along with this mode I would include a leaderboard which displays players across the world with the longest time played in the NonStop mode. Another feature I would add is giving users the chance to show of their wins to social media platforms.]
 
 
-1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[hello]
-
 ## Interview Recording URL Link
 
 [My 5-minute Interview Recording](https://youtu.be/bRPmfKEKdbY)
