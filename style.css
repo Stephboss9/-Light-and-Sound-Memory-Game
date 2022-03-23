@@ -15,20 +15,29 @@ body {
   margin: 1rem;
   font-family: sans-serif;
   line-height: 1.5;
-  background-color: slategrey;
+  background-color: #F5F2E7;
   color: white; 
 }
 
 h1 {
 font-family: verdana, arial, sans-serif; 
+color:#395B64;
+}
+
+p {
+  color: #395B64;
 }
 
 button {
 padding: 10px;
-border-radius: 10px;
+border-radius:50px;
 }
 
-#game_btn_area> button {
+#stopBtn, #startBtn {
+background: ;
+}
+
+#game_btn_area > button {
   width:200px;
   height:200px;
   margin:2px;
@@ -39,7 +48,7 @@ display:none;
 }
 
 #button1 {
-background:lightgreen;
+background:#CC9544;
 }
 
 #button2 {
@@ -52,23 +61,23 @@ background: pink;
 }
 
 #button4 {
-background: lightyellow;
+background: #F4FCD9;
 }
 
 #button1:active, #button1.lit {
-background: green;
+background: #B3541E;
 }
 
 #button2:active, #button2.lit {
-background: blue;
+background: #00B4D8;
 }
 
 #button3:active, #button3.lit {
-background:red;
+background:#FF5C8D;
 }
 
 #button4:active, #button4.lit {
-background: yellow;
+background: #C5D8A4;
 }
 
 /* images and videos max out at full width */
