@@ -50,6 +50,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
     1. https://www.w3schools.com/jsref/jsref_random.asp: Referenced when creating feature such that a new pattern is created after every new game.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
+3. 
         [A challenge I encountered while creating the game was delt with implementing the guess function. 
     I was confused on how to determine when a turn is over, and how to translate it into a conditional statement. 
     Rereading the role of the global variables I found that the progress variable kept track of what turn were, 
@@ -59,11 +60,13 @@ If you recorded multiple GIFs for all the implemented features, you can add them
     figure out when a round of the game was over.] 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
+4. 
     [After creating this project, I wondered how some websites can host hundreds of browser games to thousands of users while being able to save their progress in certain games. How much storage or space is required to maintain such websites. Does the storage change over time, or is it a set value. Do 
 all the games use the same programming language, or are they different. How would a website be able to host games that are
 written in different programming languages.] 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
+
     [If I had more time to work on this project, I would implement a two-player game mode, where two players are given two different sequences and the player that gets all correctly plays all the sequences wins. First 1 player would go with the number of mistakes he/she made recorded at the end, and we repeat the same for the 2nd player. At the end we compare the number of mistakes each player made and choose the winner.  If both players both made no mistakes, then it is a draw.  To keep things fair both players would have the same game settings, meaning when a sequence is being played back, the time each clue is played, and the time between each clue to be played would be the same. In terms of the page, I would also add a two-player game mode button and a single player mode button to the page using html and hide one of them based on which mode was selected. Another game mode I would add would be a NonStop mode, where there’s no time limit and no end. The user simply tries to play back the sequences given to him for as long as he/she can. In the logic of the game this could involve appending new clues to the end of the patterns array as the game runs. Along with this mode I would include a leaderboard which displays players across the world with the longest rounds played. Another feature I would add include being able to share your wins to social media platforms.]
 
 
@@ -71,7 +74,7 @@ written in different programming languages.]
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://youtu.be/bRPmfKEKdbY)
 
 
 ## License
