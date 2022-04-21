@@ -1,6 +1,6 @@
 # Pre-work - *Memory Game*
 
-**Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
+**Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program and Salesforce FTL program. 
 
 Submitted by: **Stephane Mbenga**
 
@@ -34,8 +34,8 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] High quality background Image
-- [ ] Button elements blend in with background image
+- [x] High quality background Image
+- [x] Button elements blend in with background image
 
 
 ## Video Walkthrough (GIF)
@@ -80,7 +80,7 @@ written in different programming languages.]
 
 ## License
 
-    Copyright [Stephane Mbenga]
+    Copyright [Stephane Yannick Christopher Mbenga]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
