@@ -41,9 +41,9 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![] <img src='Memory_walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-![] <img src='Memory_walkthrough2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-![](gif3-link-here)
+![] <img src='Memory_walkthrough3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![] <img src='Memory_walkthrough4.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![] <img src='Memory_walkthrough5.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 ![](gif4-link-here)
 
 ## Reflection Questions
