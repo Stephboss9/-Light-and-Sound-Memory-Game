@@ -24,7 +24,7 @@ function startGame(){
     gamePlaying = true;
    // swap the Start and Stop buttons
    document.getElementById("startBtn").classList.add("hidden");
-    document.getElementById("stopBtn").classList.remove("hidden");
+   document.getElementById("stopBtn").classList.remove("hidden");
    playClueSequence();
   
 }
@@ -57,7 +57,7 @@ function startTone(btn){
   if(!tonePlaying){
     context.resume()
     o.frequency.value = freqMap[btn]
-    g.gain.setTargetAtTime(volume,context.currentTime + 0.05,0.025)
+    g.gain.setTargetAtTime(volume, context.currentTime + 0.05,0.025)
     context.resume()
     tonePlaying = true
   }
@@ -92,16 +92,16 @@ o.start(0)
 
 
 function lightButton(btn){
-  document.getElementById("button"+btn).classList.add("lit")
+  document.getElementById("button"+ btn).classList.add("lit")
 }
 function clearButton(btn){
-  document.getElementById("button"+btn).classList.remove("lit")
+  document.getElementById("button"+ btn).classList.remove("lit")
 }
 
 function playSingleClue(btn){
   if(gamePlaying){
     lightButton(btn);
-    playTone(btn,clueHoldTime);
+    playTone(btn, clueHoldTime);
     setTimeout(clearButton,clueHoldTime,btn); 
     //setTimeout is a function that calls another
     //function in the future, first paramter is the the function
@@ -115,16 +115,14 @@ function playClueSequence(){
   guessCounter = 0;
   context.resume()
   let delay = nextClueWaitTime; //set delay to initial wait time
-  for(let i=0;i<=progress;i++){ // for each clue that is revealed so far
-    console.log("play single clue: " + pattern[i] + " in " + delay + "ms")
-    setTimeout(playSingleClue,delay,pattern[i]) // set a timeout to play that clue
+  for(let i = 0; i <= progress; i++){ // for each clue that is revealed so far
+    setTimeout(playSingleClue, delay, pattern[i]) // set a timeout to play that clue
     delay += clueHoldTime 
     delay += cluePauseTime;
   }
 }
 
 function guess(btn) {
-  console.log("user has guessed: " + btn);
   if(!gamePlaying){
     return;
   }

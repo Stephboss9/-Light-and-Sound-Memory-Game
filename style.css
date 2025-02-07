@@ -15,17 +15,39 @@ body {
   margin: 1rem;
   font-family: sans-serif;
   line-height: 1.5;
+  width: 98vw;
   background-color: #F5F2E7;
   color: white; 
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-image: url('./johannes-plenio-RwHv7LgeC7s-unsplash.jpg') ;
+}
+
+.introduction {
+  background: #B3541E;
+  border: 2px solid #FFF;
+  border-radius: 10px;
+
 }
 
 h1 {
 font-family: verdana, arial, sans-serif; 
-color:#395B64;
+color:#FFF;
+text-align: center;
 }
 
 p {
-  color: #395B64;
+  color: #FFF;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  gap: 10px;
 }
 
 button {
@@ -33,8 +55,16 @@ padding: 10px;
 border-radius:50px;
 }
 
+
 #stopBtn, #startBtn {
-background: ;
+  margin: 0 auto;
+  width: 80px;
+}
+
+#game_btn_area {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 #game_btn_area > button {
@@ -46,15 +76,18 @@ background: ;
 .hidden {
 display:none;
 }
-
+#button1, #button2, #button3, #button4 {
+  opacity: .7;
+  border: 3px solid #FFF;
+}
 #button1 {
 background:#CC9544;
 }
 
 #button2 {
   background:lightblue;
-
 }
+
 
 #button3 {
 background: pink;
